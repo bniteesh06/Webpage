@@ -1,0 +1,24 @@
+# --- Node / Next.js (frontend) ---
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env
+frontend/.env.local
+frontend/.env*.local
+frontend/npm-debug.log*
+
+# --- Java / Maven / Spring Boot (backend) ---
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/application-local.yml
+backend/application-secrets.yml
+backend/*.env
+
+# --- IDE ---
+.vscode/
+.idea/
+*.iml
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
