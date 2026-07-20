@@ -28,4 +28,5 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-      - run: chmod +x mvnw && ./mvnw -B compile
+      - run: chmod +x ./mvnw
+      - run: ./mvnw -B compile
