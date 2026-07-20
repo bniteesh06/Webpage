@@ -22,3 +22,6 @@ backend/*.env
 # --- OS junk ---
 .DS_Store
 Thumbs.db
+
+# --- backend/src/main/resources/application.yml ---
+backend/src/main/resources/application-local.yml

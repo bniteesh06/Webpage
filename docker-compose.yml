@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: glial-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: glial
+      POSTGRES_USER: glial_admin
+      POSTGRES_PASSWORD: devpassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - glial_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  glial_postgres_data:
